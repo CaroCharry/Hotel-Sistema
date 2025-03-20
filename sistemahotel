@@ -1,0 +1,13 @@
+class Cliente:
+    def __init__(self, nombre, identificacion, direccion, telefono, email):
+        self._nombre = nombre
+        self._identificacion = identificacion
+        self._direccion = direccion
+        self._telefono = telefono
+        self._email = email
+    
+    def get_nombre(self):
+        return self._nombre
+    
+    def set_nombre(self, nombre):
+        self._nombre = nombre
