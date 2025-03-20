@@ -11,3 +11,53 @@ class Cliente:
     
     def set_nombre(self, nombre):
         self._nombre = nombre
+
+
+#Clase 1
+class reserva:
+#Constructor
+    def __init__(self,fechaentrada,fechasalida,idreserva):
+        self.fechaentrada = fechaentrada
+        self.fechasalida = fechasalida
+        self.idreserva = idreserva
+#Definición de get
+    def getfechaentrada(self):
+        return self.fechaentrada
+    def getfechasalida(self):
+        return self.fechasalida
+    def getidreserva(self):
+        return self.idreserva
+#Definición de set
+    def setfechaentrada(self,fentrada):
+        self.fechaentrada = fentrada 
+    def setfechasalida(self,fsalida):
+        self.fechasalida = fsalida
+    def setidreserva(self,numreserva):
+        self.idreserva = numreserva
+
+#Clase 2  
+class habitacion:
+#Constructor
+    def __init__(self,idhabitacion,tipohabitacion,estado,precioxnoche):
+        self.idhabitacion = idhabitacion
+        self.tipohabitacion = tipohabitacion
+        self.estado = estado
+        self.precioxnoche = precioxnoche
+#Definición de get
+    def getidhabitacion(self):
+        return self.idhabitacion
+    def gettipohabitacion(self):
+        return self.tipohabitacion
+    def getestado(self):
+        return self.estado
+    def getprecioxnoche(self):
+        return self.precioxnoche
+#Definición de set
+    def setidhabitacion(self,numhabitacion):
+        self.idhabitacion = numhabitacion
+    def settipohabitacion(self,tipehabitacion):
+        self.tipohabitacion = tipehabitacion
+    def setestado(self,estadohab):
+        self.estado = estadohab
+    def setprecioxnoche(self,precionoche):
+        self.precioxnoche = precionoche
