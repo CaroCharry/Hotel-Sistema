@@ -50,30 +50,30 @@ class habitacion:
 class Cliente:
 #constructor
     def __init__(self, nombre, identificacion, direccion, telefono, email):
-        self._nombre = nombre
-        self._identificacion = identificacion
-        self._direccion = direccion
-        self._telefono = telefono
-        self._email = email
+        self.nombre = nombre
+        self.identificacion = identificacion
+        self.direccion = direccion
+        self.telefono = telefono
+        self.email = email
 #definicion de get
-    def get_nombre(self):
-        return self._nombre
-    def get_deltificacion(self):
-        return self._identificacion
-    def get_direccion(self):
-        return self._direccion
-    def get_telefono(self):
-        return self._telefono
-    def get_email(self):
-        return self._email
+    def getnombre(self):
+        return self.nombre
+    def getdeltificacion(self):
+        return self.identificacion
+    def getdireccion(self):
+        return self.direccion
+    def gettelefono(self):
+        return self.telefono
+    def getemail(self):
+        return self.email
 #definicon de los set
-    def set_nombre(self, nombre):
-        self._nombre = nombre
-    def set_identificacion(self, identificacion):
-        self._identificacion = identificacion
-    def set_direccion(self, direccion):
-        self._direccion = direcccion
-    def set_telefono(self, telefono):
-        self._telefono = telefono
-    def set_email(self, email):
-        self._email = email
+    def setnombre(self, nombre):
+        self.nombre = nombre
+    def setidentificacion(self, identificacion):
+        self.identificacion = identificacion
+    def setdireccion(self, direccion):
+        self.direccion = direcccion
+    def settelefono(self, telefono):
+        self.telefono = telefono
+    def setemail(self, email):
+        self.email = email
