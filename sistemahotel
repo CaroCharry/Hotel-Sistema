@@ -48,6 +48,7 @@ class habitacion:
         self.precioxnoche = precionoche
 #clase 3
 class Cliente:
+#constructor
     def __init__(self, nombre, identificacion, direccion, telefono, email):
         self._nombre = nombre
         self._identificacion = identificacion
