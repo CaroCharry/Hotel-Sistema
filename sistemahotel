@@ -5,12 +5,29 @@ class Cliente:
         self._direccion = direccion
         self._telefono = telefono
         self._email = email
-    
+#definicion de get
     def get_nombre(self):
         return self._nombre
-    
+    def get_deltificacion(self):
+        return self._identificacion
+    def get_direccion(self):
+        return self._direccion
+    def get_telefono(self):
+        return self._telefono
+    def get_email(self):
+        return self._email
+#definicon de los set
     def set_nombre(self, nombre):
         self._nombre = nombre
+    def set_identificacion(self, identificacion):
+        self._identificacion = identificacion
+    def set_direccion(self, direccion):
+        self._direccion = direcccion
+    def set_telefono(self, telefono):
+        self._telefono = telefono
+    def set_email(self, email):
+        self._email = email
+
 
 
 #Clase 1
